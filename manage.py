@@ -5,6 +5,16 @@ import sys
 
 
 def main():
+    print('  /\\   /\\                        _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _')
+    print(' //\\\_//\\\\        ____         /                                   \\')
+    print(' \\_     _/       /   /        /       Aguará Technologies           \\')
+    print('  /  * * \\      /^^^]    < ====   Chaco - Argentina , Bienvenido =) |')
+    print('  \\_ \\0/_/     [   ]          \\      == SGA CET - UTN FRRe ==       /')
+    print('    /    \\_    [  /            \\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /')
+    print('    \\      \\_  / /')
+    print('     [ [ /   \\/_/')
+    print('    _[ [ \\   /_/')
+    print('')
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sga_cet.settings')
     try:
         from django.core.management import execute_from_command_line
